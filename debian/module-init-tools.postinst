@@ -69,7 +69,7 @@ case "$1" in
     configure)
     create_etc_modules
 
-    upgrade_quirks "$@"
+#    upgrade_quirks "$@"
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)

@@ -1,3 +1,9 @@
+module-init-tools (3.16-1+0cssu1) fremantle; urgency=low
+
+  * Apply Maemo packaging patches
+
+ -- Pali Rohár <pali.rohar@gmail.com>  Sat, 02 Jan 2016 18:24:58 +0100
+
 module-init-tools (3.16-1) unstable; urgency=high
 
   * New upstream release.

@@ -1,12 +1,13 @@
 Source: module-init-tools
 Section: admin
 Priority: important
-Maintainer: Marco d'Itri <md@linux.it>
+Maintainer: Pali Rohár <pali.rohar@gmail.com>
+Original-Maintainer: Marco d'Itri <md@linux.it>
 Build-Depends: debhelper (>> 5), docbook-to-man
 Standards-Version: 3.9.2
 
 Package: module-init-tools
-Architecture: linux-any
+Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, lsb-base (>= 3.0-6)
 Conflicts: modutils
 Description: tools for managing Linux kernel modules
@@ -17,7 +18,7 @@ Homepage: http://www.kerneltools.org/
 Package: module-init-tools-udeb
 Section: debian-installer
 Priority: extra
-Architecture: linux-any
+Architecture: any
 XC-Package-Type: udeb
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: tools for managing Linux kernel modules
