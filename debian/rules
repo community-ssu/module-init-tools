@@ -6,6 +6,9 @@ BUILD_MAEMO := 1
 DISABLE_ZLIB := --disable-zlib
 CONFFLAGS := --disable-static-utils --prefix=/
 
+export SBOX_REDIRECT_IGNORE := /usr/bin/docbook-to-man:$(SBOX_REDIRECT_IGNORE)
+export PATH := /usr/bin:$(PATH)
+
 
 D := $(CURDIR)/debian/module-init-tools
 
