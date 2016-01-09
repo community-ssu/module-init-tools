@@ -1652,10 +1652,12 @@ static int parse_config_scan(const char *filename,
 				continue;
 
 			len = strlen(i->d_name);
+#if 0
 			if (len < 6 || strcmp(&i->d_name[len-5], ".conf") != 0)
 				warn("All config files need .conf: %s/%s, "
 				     "it will be ignored in a future release.\n",
 				     filename, i->d_name);
+#endif
 			fe = malloc(sizeof(struct file_entry) + len + 1);
 			if (fe == NULL)
 				continue;
