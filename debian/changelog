@@ -1,3 +1,9 @@
+module-init-tools (3.16-1+0cssu2) fremantle; urgency=low
+
+  * Do not show message 'WARNING: All config files need .conf:'
+
+ -- Pali Rohár <pali.rohar@gmail.com>  Sat, 09 Jan 2016 13:54:13 +0100
+
 module-init-tools (3.16-1+0cssu1) fremantle; urgency=low
 
   * Apply Maemo packaging patches
